@@ -1,0 +1,12 @@
+SITE_104 Project Update
+
+We reproduced the reported elevation issue and identified
+14 records with unusual elevation values.
+
+The affected points were flagged by comparing their elevations
+with nearby survey measurements.
+
+Recommended next step:
+Review the flagged measurements before using them in production.
+
+A CSV containing the affected records has been prepared for review.

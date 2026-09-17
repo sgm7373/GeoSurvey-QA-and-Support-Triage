@@ -1,0 +1,15 @@
+point_id,x_m,y_m,elevation_m,quality,issues
+P0009,128.114,172.396,134.537,good,local elevation anomaly
+P0258,105.278,777.877,140.989,good,local elevation anomaly
+P0329,632.918,737.348,131.639,good,local elevation anomaly
+P0410,999.105,714.442,118.478,good,local elevation anomaly
+P0424,51.658,287.733,141.951,good,local elevation anomaly
+P0604,720.696,749.526,142.512,good,local elevation anomaly
+P0637,675.306,251.665,144.164,good,local elevation anomaly
+P0679,134.367,205.377,134.014,good,local elevation anomaly
+P1085,978.204,3.115,120.645,good,local elevation anomaly
+P1104,839.174,602.768,135.263,good,local elevation anomaly
+P1126,552.185,337.996,133.928,good,local elevation anomaly
+P1169,819.2,459.857,159.926,good,local elevation anomaly
+P1195,872.859,699.881,159.988,fair,local elevation anomaly
+P1230,59.487,714.324,155.71800000000002,good,local elevation anomaly
