@@ -42,6 +42,26 @@ This project focuses on four checks:
 
 10. Export the affected records and generate a short customer update with the recommended next step.
 
+## Results
+
+### Survey Site QA
+
+The first view shows the distribution of survey measurements across the project site. Points identified as unusual through the local elevation analysis are highlighted so their spatial locations can be inspected.
+
+![Survey Site QA](survey_site_qa.png)
+
+### Elevation Analysis
+
+The elevation map shows how measured elevation changes across the survey area. Flagged measurements can be compared directly with the surrounding terrain to understand why they were selected for review.
+
+![Survey Site Elevation Map](elevation_map.png)
+
+### Data Quality Issues
+
+The validation workflow also checks for missing coordinates, duplicate records, poor measurement quality, and elevation anomalies. The issue breakdown provides a quick summary of the records requiring attention.
+
+![Survey Data Quality Issues](issue_breakdown.png)
+
 ## Validation
 
 The synthetic dataset is created before any errors are introduced, so the locations of the controlled elevation problems are known.
@@ -74,15 +94,17 @@ A customer update and a CSV containing the affected records are generated at the
 
 ## Deliverables
 
-`SurveyFlow_Geospatial_QA.ipynb`, the complete notebook that runs from top to bottom in Google Colab
+`GeoSurvey_QA_Support_Triage.ipynb`, the complete notebook that runs from top to bottom in Google Colab
 
 `SITE_104_elevation_review.csv`, the records identified during the simulated elevation investigation
 
 `SITE_104_customer_update.txt`, a short customer facing summary of the investigation
 
-Spatial visualizations showing the survey site and detected elevation anomalies
+`survey_site_qa.png`, spatial view of the survey site and detected anomalies
 
-Project health and validation summaries
+`elevation_map.png`, elevation distribution across the survey site
+
+`issue_breakdown.png`, summary of detected data quality issues
 
 ## Why this is useful
 
@@ -94,7 +116,7 @@ It also provides a repeatable way to test the detection logic because the synthe
 
 ## How to run it
 
-Open `SurveyFlow_Geospatial_QA.ipynb` in Google Colab and run the cells in order from the top.
+Open `GeoSurvey_QA_Support_Triage.ipynb` in Google Colab and run the cells in order from the top.
 
 The dataset is generated inside the notebook, so no external dataset is required.
 
