@@ -94,7 +94,7 @@ A customer update and a CSV containing the affected records are generated at the
 
 ## Deliverables
 
-`GeoSurvey_QA_Support_Triage.ipynb`, the complete notebook that runs from top to bottom in Google Colab
+`GeoSurvey_QA_and_Support_Triage.ipynb`, the complete notebook that runs from top to bottom in Google Colab
 
 `SITE_104_elevation_review.csv`, the records identified during the simulated elevation investigation
 
